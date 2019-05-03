@@ -1,0 +1,115 @@
+html,
+body{
+	margin:0px;
+	padding:0px;
+    background: #efefef;
+	font-family: sans-serif;
+    font-size: 14px;
+}
+.uk-grid{
+    margin-left: -10px;
+    overflow: hidden;
+}
+.uk-grid>* {
+    float: left;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.uk-grid-width-1-2>* {
+    width: 50%;
+}
+
+.uk-grid-width-1-1>* {
+    width: 100%;
+}
+
+
+.header{
+    font-weight: bold;
+	margin-bottom:15px;
+}
+.item{}
+.item .thumb{
+	height:168px;
+}
+.item .thumb img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.item .body{}
+.item .body .title{
+    margin-bottom: 10px;
+    max-height: 38px;
+    overflow: hidden;
+}
+.item .body .title a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+.item .body .description{
+    max-height: 36px;
+    overflow: hidden;
+}
+
+/* section 01 */
+
+.section-01{
+	background:#FFF;
+    margin-bottom: 15px
+}
+.section-01 .item .body {
+    padding: 10px;
+}
+
+/* section 02 */
+
+.section-02{
+	background:#FFF;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.section-02 .item{
+    padding: 0px;
+	margin-bottom:10px;
+}
+.section-02 .item .thumb{
+    margin-bottom: 15px;
+}
+.section-02 .grid .item .thumb{
+    height: 100px;
+}
+
+.section-02 .item .thumb img{
+	border-radius: 5px;
+}
+/* slider */
+.section-03 .slider {
+	height: 250px;
+	width: max-content;
+}
+.section-03 .wrapper {
+    overflow: scroll;
+}
+.section-03{
+	background:#FFF;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.section-03 .item{
+	width: 130px;
+    float: left;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.section-03 .item .thumb{
+	height: 100px;
+    margin-bottom: 15px;
+}
+.section-03 .grid .item .thumb{
+    height: 100px;
+}
+.section-03 .item .thumb img{
+	border-radius: 5px;
+}
